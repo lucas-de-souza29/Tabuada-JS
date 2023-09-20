@@ -1,0 +1,62 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(to right, #ffb75e, #ed8f03) ;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
+
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+div button#geraTabuada{
+    background-color: #45a049;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: auto;
+}
+
+input#numero {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 5px 5px;
+}
+
+select#selectTabuada{
+    padding: 10px;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+select#selectTabuada option {
+    padding: 10px;
+    text-align: center;
+}
+
+select#selectTabuada:focus {
+    border-color: #45a049;
+    box-shadow: 0 0 5px #45a049;
+}

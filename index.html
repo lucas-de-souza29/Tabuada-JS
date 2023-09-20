@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabuada com HTML, CSS & JS</title>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <label for="labelNum">Número:</label>  
+            <input type="number" id="numero"/>
+            <button id="geraTabuada" type="button" @click="tabuada">Gerar Tabuada</button>
+        </div>
+        <div id="result">
+            <select name="tabuada" id="selectTabuada" size="10">
+                <option>Informe um número no campo acima:</option>
+            </select>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
